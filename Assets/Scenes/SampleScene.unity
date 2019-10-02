@@ -1431,7 +1431,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1778470748}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!215 &568094919
 ReflectionProbe:
@@ -2759,70 +2759,6 @@ MonoBehaviour:
   m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
---- !u!1 &1060464498
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1060464499}
-  - component: {fileID: 1060464500}
-  m_Layer: 0
-  m_Name: Reflection Probe
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1060464499
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060464498}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 24.08}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1778470748}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!215 &1060464500
-ReflectionProbe:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060464498}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Type: 0
-  m_Mode: 0
-  m_RefreshMode: 0
-  m_TimeSlicingMode: 0
-  m_Resolution: 128
-  m_UpdateFrequency: 0
-  m_BoxSize: {x: 15.008755, y: 10, z: 14.315558}
-  m_BoxOffset: {x: -2.5043774, y: 0, z: 0.8581023}
-  m_NearClip: 0.3
-  m_FarClip: 1000
-  m_ShadowDistance: 100
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IntensityMultiplier: 1
-  m_BlendDistance: 1
-  m_HDR: 1
-  m_BoxProjection: 0
-  m_RenderDynamicObjects: 0
-  m_UseOcclusionCulling: 1
-  m_Importance: 1
-  m_CustomBakedTexture: {fileID: 0}
 --- !u!1 &1226508855
 GameObject:
   m_ObjectHideFlags: 0
@@ -4143,7 +4079,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1693100687
 Transform:
   m_ObjectHideFlags: 0
@@ -4152,7 +4088,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693100686}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: -3, z: 28.87}
+  m_LocalPosition: {x: -3, y: -2.49, z: 28.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1778470748}
@@ -4167,29 +4103,29 @@ LightProbeGroup:
   m_GameObject: {fileID: 1693100686}
   m_Enabled: 1
   m_SourcePositions:
-  - {x: -1.4832675, y: 1, z: 3.5843048}
+  - {x: -1.4832675, y: 1, z: 48.892746}
   - {x: -1.4832675, y: 1, z: 1.5843048}
-  - {x: -1.4832675, y: -1, z: 3.5843048}
+  - {x: -1.4832675, y: -1, z: 48.892746}
   - {x: -1.4832675, y: -1, z: 1.5843048}
-  - {x: -3.4832678, y: 1, z: 3.5843048}
+  - {x: -3.4832678, y: 1, z: 48.892746}
   - {x: -3.4832678, y: 1, z: 1.5843048}
-  - {x: -3.4832678, y: -1, z: 3.5843048}
+  - {x: -3.4832678, y: -1, z: 48.892746}
   - {x: -3.4832678, y: -1, z: 1.5843048}
-  - {x: 3.6653342, y: 1, z: 3.5843048}
+  - {x: 3.6653342, y: 1, z: 48.892746}
   - {x: 3.6653342, y: 1, z: 1.5843048}
-  - {x: 3.6653342, y: -1, z: 3.5843048}
+  - {x: 3.6653342, y: -1, z: 48.892746}
   - {x: 3.6653342, y: -1, z: 1.5843048}
-  - {x: 1.665334, y: 1, z: 3.5843048}
+  - {x: 1.665334, y: 1, z: 48.892746}
   - {x: 1.665334, y: 1, z: 1.5843048}
-  - {x: 1.665334, y: -1, z: 3.5843048}
+  - {x: 1.665334, y: -1, z: 48.892746}
   - {x: 1.665334, y: -1, z: 1.5843048}
-  - {x: 1, y: 1, z: 3.5843048}
+  - {x: 1, y: 1, z: 48.892746}
   - {x: 1, y: 1, z: 1.5843048}
-  - {x: 1, y: -1, z: 3.5843048}
+  - {x: 1, y: -1, z: 48.892746}
   - {x: 1, y: -1, z: 1.5843048}
-  - {x: -1, y: 1, z: 3.5843048}
+  - {x: -1, y: 1, z: 48.892746}
   - {x: -1, y: 1, z: 1.5843048}
-  - {x: -1, y: -1, z: 3.5843048}
+  - {x: -1, y: -1, z: 48.892746}
   - {x: -1, y: -1, z: 1.5843048}
   - {x: -1.4832675, y: 1, z: 1}
   - {x: -1.4832675, y: 1, z: -1}
@@ -4245,7 +4181,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1778470748}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!215 &1742352152
 ReflectionProbe:
@@ -4443,7 +4379,6 @@ Transform:
   - {fileID: 402360828}
   - {fileID: 1670655650}
   - {fileID: 1693100687}
-  - {fileID: 1060464499}
   - {fileID: 568094918}
   - {fileID: 1742352151}
   m_Father: {fileID: 0}
