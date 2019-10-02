@@ -3384,6 +3384,14 @@ PrefabInstance:
       propertyPath: AimCollisionLayerMask.m_Bits
       value: 16
       objectReference: {fileID: 0}
+    - target: {fileID: 1606703708, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: Range
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606703708, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: Gravity
+      value: -2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
 --- !u!1 &1398255480
