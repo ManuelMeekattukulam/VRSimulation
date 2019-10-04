@@ -20,5 +20,10 @@ public class GravityChange : MonoBehaviour
         {
             Physics.gravity = new Vector3(0f, -9.81f, 0f);
         }
+
+        if (collider.gameObject.tag == "Button4")
+        {
+            Physics.gravity = new Vector3(0f, 9.81f, 0f);
+        }
     }
 }
