@@ -9,24 +9,12 @@ public class ButtonTrigger : MonoBehaviour
     [SerializeField]
     private Transform spawnPoint;
 
-    void Start()
-    {
-        
-    }
-
-    
-    void Update()
-    {
-        
-    }
-
     void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.tag == "Player")
+        if (collider.gameObject.tag == "Button")
         {
-            Transform t = Instantiate(boxPrefab);
-            t.position = spawnPoint.position;
+            Transform spawnPosition = Instantiate(boxPrefab);
+            spawnPosition.position = spawnPoint.position;
         }
     }
-
 }

@@ -1512,7 +1512,7 @@ GameObject:
   - component: {fileID: 576741303}
   m_Layer: 9
   m_Name: Button
-  m_TagString: Player
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1600,7 +1600,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 576741296}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.586, y: 0.759, z: 1.168}
+  m_LocalPosition: {x: 0.586, y: 0.7114, z: 1.168}
   m_LocalScale: {x: 0.1729, y: 0.1729, z: 0.1729}
   m_Children: []
   m_Father: {fileID: 2080702075}
@@ -2565,7 +2565,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &893891932
 Transform:
   m_ObjectHideFlags: 0
@@ -2574,8 +2574,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893891931}
   m_LocalRotation: {x: -0, y: 0.70710677, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 1.75, y: 0.5960002, z: 1.479}
-  m_LocalScale: {x: 1.0352648, y: 0.065553844, z: 0.52830654}
+  m_LocalPosition: {x: 0.588, y: 0.5960002, z: 1.479}
+  m_LocalScale: {x: 1.0352648, y: 0.065553844, z: 0.26417968}
   m_Children: []
   m_Father: {fileID: 2080702075}
   m_RootOrder: 3
