@@ -20,9 +20,9 @@ public class ButtonTrigger : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider collider)
     {
-        if (other.tag == "Button")
+        if (collider.gameObject.tag == "Finish")
         {
             Transform t = Instantiate(boxPrefab);
             t.position = spawnPoint.position;
