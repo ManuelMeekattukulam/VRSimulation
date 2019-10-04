@@ -1604,7 +1604,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 576741296}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.586, y: 0.701, z: 1.168}
+  m_LocalPosition: {x: 0.586, y: 0.8748, z: 1.168}
   m_LocalScale: {x: 0.1729, y: 0.1729, z: 0.1729}
   m_Children: []
   m_Father: {fileID: 2080702075}
@@ -1622,11 +1622,11 @@ SpringJoint:
   m_AutoConfigureConnectedAnchor: 0
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
   serializedVersion: 2
-  m_Spring: 300
-  m_Damper: 10
+  m_Spring: 1000
+  m_Damper: 0
   m_MinDistance: 0
   m_MaxDistance: 0
-  m_Tolerance: 0.025
+  m_Tolerance: 1.00000005e-20
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 1
@@ -4179,7 +4179,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487147470}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.586, y: 0.701, z: 1.168}
+  m_LocalPosition: {x: 0.586, y: 0.8748, z: 1.168}
   m_LocalScale: {x: 0.1729, y: 0.1729, z: 0.1729}
   m_Children: []
   m_Father: {fileID: 1396749078}
@@ -5834,7 +5834,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923261577}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.586, y: 0.701, z: 1.168}
+  m_LocalPosition: {x: 0.586, y: 0.8748, z: 1.168}
   m_LocalScale: {x: 0.1729, y: 0.1729, z: 0.1729}
   m_Children: []
   m_Father: {fileID: 2143900262}
