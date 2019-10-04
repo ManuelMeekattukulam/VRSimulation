@@ -22,7 +22,7 @@ public class ButtonTrigger : MonoBehaviour
 
     void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.tag == "Finish")
+        if (collider.gameObject.tag == "Player")
         {
             Transform t = Instantiate(boxPrefab);
             t.position = spawnPoint.position;
