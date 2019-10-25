@@ -194,6 +194,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Classroom
       objectReference: {fileID: 0}
+    - target: {fileID: 8755649368092050462, guid: 3b8622a76c65b5c498a9a4c6d4657fd3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5429554622750598083, guid: 3b8622a76c65b5c498a9a4c6d4657fd3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3b8622a76c65b5c498a9a4c6d4657fd3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -202,7 +212,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 3b8622a76c65b5c498a9a4c6d4657fd3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.88153076
+      value: -1.512
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3b8622a76c65b5c498a9a4c6d4657fd3,
         type: 3}
@@ -247,16 +257,6 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 3b8622a76c65b5c498a9a4c6d4657fd3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5429554622750598083, guid: 3b8622a76c65b5c498a9a4c6d4657fd3,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8755649368092050462, guid: 3b8622a76c65b5c498a9a4c6d4657fd3,
-        type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
