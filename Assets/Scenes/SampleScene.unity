@@ -76,8 +76,8 @@ LightmapSettings:
     m_BakeBackend: 1
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 1000
-    m_PVRSampleCount: 4000
-    m_PVRBounces: 4
+    m_PVRSampleCount: 1000
+    m_PVRBounces: 1
     m_PVREnvironmentSampleCount: 8
     m_PVREnvironmentReferencePointCount: 2048
     m_PVRFilteringMode: 0
