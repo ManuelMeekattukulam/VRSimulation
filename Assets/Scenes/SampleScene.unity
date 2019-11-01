@@ -75,8 +75,8 @@ LightmapSettings:
     m_MixedBakeMode: 2
     m_BakeBackend: 1
     m_PVRSampling: 1
-    m_PVRDirectSampleCount: 100
-    m_PVRSampleCount: 100
+    m_PVRDirectSampleCount: 200
+    m_PVRSampleCount: 200
     m_PVRBounces: 1
     m_PVREnvironmentSampleCount: 8
     m_PVREnvironmentReferencePointCount: 2048
@@ -4146,8 +4146,8 @@ ReflectionProbe:
   m_TimeSlicingMode: 0
   m_Resolution: 128
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 17.66006, y: 3.7811906, z: 14.636159}
-  m_BoxOffset: {x: 1.0744953, y: 0.58794796, z: -0.3307538}
+  m_BoxSize: {x: 20.023136, y: 3.7811906, z: 15.312027}
+  m_BoxOffset: {x: 2.2560291, y: 0.58794796, z: 0.0071792603}
   m_NearClip: 0.3
   m_FarClip: 1000
   m_ShadowDistance: 100
