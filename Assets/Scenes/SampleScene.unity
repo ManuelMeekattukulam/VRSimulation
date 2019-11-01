@@ -6277,6 +6277,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1476940278}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1478594023 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: ce816f2e6abb0504092c23ed9b970dfd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1388150294}
+  m_PrefabAsset: {fileID: 0}
+--- !u!45 &1478594028
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478594023}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 3d198cc4fe71d344f8f9dd328e31eae7, type: 2}
 --- !u!1 &1518365088
 GameObject:
   m_ObjectHideFlags: 0
