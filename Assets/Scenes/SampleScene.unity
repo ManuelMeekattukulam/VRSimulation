@@ -5358,10 +5358,10 @@ BoxCollider:
   m_GameObject: {fileID: 1176586235}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 0.10887217, y: 0.8030787, z: 1.9387606}
-  m_Center: {x: 0.01797915, y: -0.39169106, z: 0.9756203}
+  m_Size: {x: 0.034260992, y: 0.80307865, z: 1.9387606}
+  m_Center: {x: 0.019400518, y: -0.39169103, z: 0.9756204}
 --- !u!153 &1176586238
 ConfigurableJoint:
   m_ObjectHideFlags: 0
@@ -5408,7 +5408,7 @@ ConfigurableJoint:
     bounciness: 0
     contactDistance: 0
   m_AngularZLimit:
-    limit: 0
+    limit: 3
     bounciness: 0
     contactDistance: 0
   m_TargetPosition: {x: 0, y: 0, z: 0}
